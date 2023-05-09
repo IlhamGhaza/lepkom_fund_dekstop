@@ -19,14 +19,13 @@ Module Program
     End Sub
     Private Sub perulangan2(ByVal a As Integer, ByVal c As Integer)
         While a > 0
-            While c > a
+            While c < a
                 Console.Write("*")
                 c = c + 1
             End While
             Console.WriteLine()
             c = 0
             a = a - 1
-
         End While
     End Sub
 End Module
