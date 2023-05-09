@@ -4,7 +4,7 @@ Module Program
     Sub Main(args As String())
         Dim sLuas As Single
         Dim sPanjang As Single = 7.5689782
-        Dim sLebar As Double = 9.568972
+        Dim sLebar As Single = 9.568972
         Dim sLuas2 As Double
         Dim sPanjang2 As Double = 7.5689782
         Dim sLebar2 As Double = 9.568972
