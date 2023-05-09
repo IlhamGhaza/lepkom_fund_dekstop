@@ -1,1 +1,1 @@
-# Project Fundamental Dekstop Lepkom M3 menggunakan borlan delphi
+# Project Fundamental Dekstop Lepkom 
