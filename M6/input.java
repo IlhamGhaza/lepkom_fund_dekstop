@@ -8,14 +8,16 @@ public class input {
 
         System.out.println("Masukkan suatu string");
         String st = "";
+
         try{
             st =  streamTeks.readLine();
-        }catch(IOException i) 
-        { System.out.println("String" +st); }
+        } 
+        catch(IOException i){}
+        System.out.println("String : " +st); 
     }
 
     public static String readLine() {
         return null;
     }
-
 }
+
