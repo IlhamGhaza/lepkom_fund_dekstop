@@ -47,9 +47,9 @@ public class login extends Frame {
                 String user = f1.getText();
                 String passsword = f2.getText();
                 if (user.compareTo("rhama") == 0 && passsword.compareTo("lepkom")==0)
-                JOptionPane.showMessageDialog(null, "Login sukses", "informasi", JOptionPane.WARNING_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Login sukses", "informasi", JOptionPane.INFORMATION_MESSAGE);
                 else
-                JOptionPane.showMessageDialog(null, "user atau password salah", "peringatan", JOptionPane.WARNING_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "user atau password salah", "peringatan", JOptionPane.WARNING_MESSAGE);
                 
             }
         } 
